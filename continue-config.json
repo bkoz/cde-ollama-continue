@@ -1,16 +1,16 @@
 {
     "models": [
       {
-        "title": "On-prem Llama3-8b",
-        "model": "llama3:8b",
+        "title": "On-prem Granite3-dense-2b",
+        "model": "granite3-dense:2b",
         "apiBase": "http://localhost:11434",
         "provider": "ollama"
         }    
       ],
     "tabAutocompleteModel": {
-      "title": "Starcoder2 3b",
+      "title": "Granite-Code 3b",
       "provider": "ollama",
-      "model": "starcoder2:3b"
+      "model": "granite-code:3b"
     },
     "allowAnonymousTelemetry": false
   }
