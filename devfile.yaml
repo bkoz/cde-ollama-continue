@@ -40,11 +40,11 @@ commands:
   - id: pullmodel
     exec:
       component: ollama
-      commandLine: "ollama pull llama3:8b"
+      commandLine: "ollama pull granite3-dense:2b"
   - id: pullautocompletemodel
     exec:
       component: ollama
-      commandLine: "ollama pull starcoder2:3b"
+      commandLine: "ollama pull granite-code:3b"
   - id: copyconfig
     exec:
       component: udi
